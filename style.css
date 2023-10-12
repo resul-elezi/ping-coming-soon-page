@@ -13,6 +13,10 @@
     --veryDarkBlue: hsl(209, 33%, 12%);
 }
 
+html {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 
 .attribution { 
     font-size: 11px; text-align: center; 
