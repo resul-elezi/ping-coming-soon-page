@@ -6,7 +6,7 @@
 *, *::before, *::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-bo;
+    box-sizing: border-box;
 }
     
     /* ### Secondary */
@@ -30,16 +30,19 @@ html {
     max-width: 4rem;
     height: 4rem;
     margin: 1rem;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 .face {
     border: 1px solid var(--blue);
     border-radius: 50%;
-    padding: 1rem;
+}
+.face svg {
+    padding: 0 .2rem .5rem;
 }
 .twitter {
     border: 1px solid var(--blue);
     border-radius: 50%;
+    margin-top: 2rem;
 }
 .insta {
     border: 1px solid var(--blue);
@@ -48,7 +51,6 @@ html {
 svg {
     width: 100%;
     max-width: 1.5rem;
-    padding: 1rem;
 }
 
 .attribution { 
