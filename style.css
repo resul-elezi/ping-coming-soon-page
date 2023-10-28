@@ -3,7 +3,11 @@
 :root {
     /* ### Primary */
     --blue: hsl(223, 87%, 63%);
-
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-bo;
+}
     
     /* ### Secondary */
     --paleBlue: hsl(223, 100%, 88%);
@@ -16,6 +20,35 @@
 
 html {
     font-family: 'Libre Franklin', sans-serif;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+}
+.social-media div {
+    max-width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    /* padding: 1rem; */
+}
+.face {
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    padding: 1rem;
+}
+.twitter {
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+}
+.insta {
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+}
+svg {
+    width: 100%;
+    max-width: 1.5rem;
+    padding: 1rem;
 }
 
 .attribution { 
