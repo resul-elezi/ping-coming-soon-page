@@ -3,11 +3,6 @@
 :root {
     /* ### Primary */
     --blue: hsl(223, 87%, 63%);
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
     
     /* ### Secondary */
     --paleBlue: hsl(223, 100%, 88%);
@@ -17,42 +12,39 @@
     --gray: hsl(0, 0%, 59%);
     --veryDarkBlue: hsl(209, 33%, 12%);
 }
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
     font-family: 'Libre Franklin', sans-serif;
 }
-
 .social-media {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
-.social-media div {
-    max-width: 4rem;
-    height: 4rem;
-    margin: 1rem;
-    padding: 1rem;
-}
-.face {
-    border: 1px solid var(--blue);
+.fa-facebook-f {
+    color: var(--blue);
+    border: 1px solid var(--paleBlue);
     border-radius: 50%;
+    padding: .75rem;
 }
-.face svg {
-    padding: 0 .2rem .5rem;
-}
-.twitter {
-    border: 1px solid var(--blue);
+.fa-twitter {
+    color: var(--blue);
+    border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    margin-top: 2rem;
+    padding: .75rem;
 }
-.insta {
-    border: 1px solid var(--blue);
+.fa-instagram {
+    color: var(--blue);
+    border: 1px solid var(--paleBlue);
     border-radius: 50%;
+    padding: .75rem;
 }
-svg {
-    width: 100%;
-    max-width: 1.5rem;
-}
-
 .attribution { 
     font-size: 11px; text-align: center; 
 }
