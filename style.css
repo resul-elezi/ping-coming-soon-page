@@ -31,19 +31,22 @@ html {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    padding: .75rem;
+    padding: .5rem .687rem;
+    cursor: pointer;
 }
 .fa-twitter {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    padding: .75rem;
+    padding: .5rem;
+    cursor: pointer;
 }
 .fa-instagram {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    padding: .75rem;
+    padding: .5rem .563rem;
+    cursor: pointer;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
