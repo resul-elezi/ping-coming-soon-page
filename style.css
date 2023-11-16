@@ -28,6 +28,7 @@ body {
     align-items: center;
 }
 main {
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,24 +40,25 @@ main {
 }
 .form-section {
     text-align: center;
+    width: 100%;
 }
 .main-header {
     font-size: 1.25rem;
     color: var(--gray);
     letter-spacing: .5px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.15rem;
 }
 strong {
     color: black;
 }
 .subscribe {
     font-size: .75rem;
-    padding-bottom: 1.75rem;
+    padding-bottom: 2rem;
 }
 #email {
-    width: 90%;
+    width: 100%;
     margin-bottom: .15rem;
-    padding: .6rem 2.25rem;
+    padding: .7rem 2rem;
     border-radius: 1.5rem;
     outline: none;
     border: 1px solid var(--paleBlue);
@@ -66,21 +68,22 @@ strong {
     opacity: .75;
 }
 .error-msg {
-    /* display: none; */
+    display: none;
     font-size: .65rem;
     font-style: italic;
     color: var(--lightRed);
-    padding-bottom: 1.5rem;
+    padding-bottom: .75rem;
 }
 button {
-    width: 90%;
-    padding: .6rem 2.25rem;
+    width: 100%;
+    padding: .7rem 2rem;
     border-radius: 1.5rem;
     outline: none;
     border: none;
     background: var(--blue);
     color: white;
     margin-top: .5rem;
+    cursor: pointer;
 }
 /* header {
     text-align: center;
