@@ -15,9 +15,9 @@
 <section class="form-section">
   <p class="main-header">We are launching <strong>soon!</strong></p>
   <p class="subscribe">Subscribe and get notified</p>
-  <form action="">
-    <input type="email" name="email" id="email" placeholder="Your email address..."><br>
-    <p class="error-msg">Please provide a valid email address</p>
+  <form id="form" action="/" method="post">
+    <input required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" type="email" name="email" id="email" placeholder="Your email address..."><br>
+    <div class="error-msg hidden"></div>
     <button type="submit">Notify Me</button>
   </form>
 </section>
