@@ -33,11 +33,26 @@ main {
     justify-content: center;
     align-items: center;
 }
+.form-section {
+    text-align: center;
+}
+.main-header {
+    font-size: 1.25rem;
+    color: var(--gray);
+    letter-spacing: .5px;
+    margin-bottom: 1rem;
+}
+strong {
+    color: black;
+}
+.subscribe {
+    font-size: .75rem;
+}
 /* header {
     text-align: center;
 } */
 header img {
-    padding-block: 5.2rem 3rem;
+    padding-block: 5.2rem 2.15rem;
     width: 3.3rem;
 }
 /* .social-media {
