@@ -53,6 +53,17 @@ strong {
     font-size: .75rem;
     padding-bottom: 1.75rem;
 }
+#email {
+    width: 100%;
+    padding: .6rem 2.25rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: 1px solid var(--paleBlue);
+}
+::placeholder {
+    color: var(--paleBlue);
+    opacity: .75;
+}
 /* header {
     text-align: center;
 } */
