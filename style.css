@@ -21,12 +21,31 @@
 html {
     font-family: 'Libre Franklin', sans-serif;
 }
-.social-media {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* header {
+    text-align: center;
+} */
+header img {
+    padding-block: 5.2rem 3rem;
+    width: 3.3rem;
+}
+/* .social-media {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-}
+} */
 .fa-facebook-f {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
