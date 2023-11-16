@@ -95,31 +95,31 @@ button {
 }
 
 .social-media {
-    margin-block: 2.5rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .75rem;
+    gap: 1rem;
 }
 .fa-facebook-f {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    padding: .5rem .687rem;
+    padding: .35rem .537rem;
     cursor: pointer;
 }
 .fa-twitter {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    padding: .5rem;
+    padding: .35rem;
     cursor: pointer;
 }
 .fa-instagram {
     color: var(--blue);
     border: 1px solid var(--paleBlue);
     border-radius: 50%;
-    padding: .5rem .563rem;
+    padding: .35rem .412rem;
     cursor: pointer;
 }
 .attribution { 
