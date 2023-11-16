@@ -33,6 +33,10 @@ main {
     justify-content: center;
     align-items: center;
 }
+.logo {
+    padding-block: 5.2rem 2.25rem;
+    width: 3.3rem;
+}
 .form-section {
     text-align: center;
 }
@@ -47,14 +51,11 @@ strong {
 }
 .subscribe {
     font-size: .75rem;
+    padding-bottom: 1.75rem;
 }
 /* header {
     text-align: center;
 } */
-header img {
-    padding-block: 5.2rem 2.15rem;
-    width: 3.3rem;
-}
 /* .social-media {
     display: flex;
     justify-content: center;
