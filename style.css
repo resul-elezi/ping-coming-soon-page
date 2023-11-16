@@ -54,7 +54,8 @@ strong {
     padding-bottom: 1.75rem;
 }
 #email {
-    width: 100%;
+    width: 90%;
+    margin-bottom: .15rem;
     padding: .6rem 2.25rem;
     border-radius: 1.5rem;
     outline: none;
@@ -63,6 +64,23 @@ strong {
 ::placeholder {
     color: var(--paleBlue);
     opacity: .75;
+}
+.error-msg {
+    /* display: none; */
+    font-size: .65rem;
+    font-style: italic;
+    color: var(--lightRed);
+    padding-bottom: 1.5rem;
+}
+button {
+    width: 90%;
+    padding: .6rem 2.25rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    background: var(--blue);
+    color: white;
+    margin-top: .5rem;
 }
 /* header {
     text-align: center;
