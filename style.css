@@ -70,14 +70,13 @@ strong {
     opacity: .75;
 }
 .error-msg {
+    display: none;
     font-size: .65rem;
     font-style: italic;
     color: var(--lightRed);
     padding-bottom: .75rem;
 }
-.hidden {
-    display: none;
-}
+
 button {
     width: 100%;
     padding: .7rem 2rem;
