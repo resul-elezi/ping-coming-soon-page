@@ -2,7 +2,7 @@
 
 const EMAIL = document.getElementById("email");
 const BUTTON = document.getElementById("button");
-const FORM = document.getElementById("form");
+const FORM = document.getElementById("main");
 const ERROR_P = document.querySelector(".msg");
 
 

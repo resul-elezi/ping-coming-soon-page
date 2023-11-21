@@ -59,8 +59,8 @@ strong {
 }
 #email {
     width: 100%;
-    margin-bottom: .15rem;
-    padding: .7rem 2rem;
+    margin-bottom: .3rem;
+    padding: .675rem 2rem;
     border-radius: 1.5rem;
     outline: none;
     border: 1px solid var(--paleBlue);
@@ -74,18 +74,18 @@ strong {
     font-size: .65rem;
     font-style: italic;
     color: var(--lightRed);
-    padding-bottom: .75rem;
+    padding-bottom: .9375rem;
 }
 
 button {
     width: 100%;
-    padding: .7rem 2rem;
+    padding: .675rem 2rem;
     border-radius: 1.5rem;
     outline: none;
     border: none;
     background: var(--blue);
     color: white;
-    margin-top: .5rem;
+    margin-top: .3rem;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(79, 125, 242, .5);
 }
@@ -132,7 +132,10 @@ footer {
     display: block;
 }
 .error #email {
-    border-color: var(--lightRed);
+    border: 1px solid var(--lightRed);
+}
+.error .illustration {
+    margin-top: 2.175rem;
 }
 .copyright {
     margin-block: 1.7rem;
