@@ -69,7 +69,7 @@ strong {
     color: var(--paleBlue);
     opacity: .75;
 }
-.error-msg {
+.msg {
     display: none;
     font-size: .65rem;
     font-style: italic;
@@ -127,6 +127,12 @@ button {
 }
 footer {
     text-align: center;
+}
+.error .msg {
+    display: block;
+}
+.error #email {
+    border-color: var(--lightRed);
 }
 .copyright {
     margin-block: 1.7rem;

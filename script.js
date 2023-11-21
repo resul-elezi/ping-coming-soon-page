@@ -2,23 +2,20 @@
 
 const EMAIL = document.getElementById("email");
 const BUTTON = document.getElementById("button");
-const ERROR = document.querySelector(".error-msg");
-
+const FORM = document.getElementById("form");
 
 BUTTON.addEventListener('click', (e) => {
-    // e.preventDefault(); // prevent the auto submission of the form
-
-    const REG =  /^[a-zA-Z0-9!#$%&'*+\-/=?^_`{|}~]+(\.[a-zA-Z0-9!#$%&'*+\-/=?^_`{|}~]+)*$/;
-
-    if(EMAIL.value.match(REG)){
-        ERROR.style.display = "none";
-        EMAIL.style.border = "";
+    // e.preventDefault();
+    
+    const REG_EX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    
+    if (!EMAIL.value.match(REG_EX)) {
+        FORM.classList.add("error");
     } 
     else {
-        ERROR.style.display = "block"
-        ERROR.innerText = "Please provide a valid email address";
-        EMAIL.style.border = "1px solid hsl(354, 100%, 66%)";
+        FORM.classList.remove("error");
     }
-})
+});
+
 
 
