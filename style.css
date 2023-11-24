@@ -79,10 +79,9 @@ strong {
 
 button {
     width: 100%;
-    padding: .675rem 2rem;
-    border-radius: 1.5rem;
-    outline: none;
+    padding: .725rem 2rem;
     border: none;
+    border-radius: 1.5rem;
     background: var(--blue);
     color: white;
     margin-top: .3rem;
@@ -92,8 +91,8 @@ button {
     box-shadow .3s linear;
 }
 button:hover {
-    background: rgba(79, 125, 242, .8);
-    box-shadow: 2px 3px 10px rgba(79, 125, 242, .3);
+    background: rgba(79, 125, 242, .9);
+    box-shadow: 2px 3px 10px rgba(79, 125, 242, .4);
 }
 .illustration {
     width: 100%;
@@ -163,14 +162,50 @@ footer {
 }
 .copyright {
     margin-block: 1.7rem;
-    font-size: 10px;
+    font-size: .625rem;
     color: var(--gray);
 }
-.attribution { 
-    font-size: 11px;
+.attribution {
+    padding-bottom: .5rem;
+    font-size: .625rem;
     text-align: center;
     color: var(--gray); 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 42.5em) {
+    body {
+        max-width: 90rem;
+        width: 100%;
+    }
+
+    .logo {
+        padding-block: 4.5rem;
+        width: 5rem;
+    }
+    main {
+        height: 100vh;
+    }
+
+    #form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: .85rem;
+    }
+    #email {
+        width: 65%;
+        margin: 0;
+    }
+    button {
+        width: 25%;
+        margin: 0;
+        box-shadow: none;
+    }
+    .msg {
+        order: 2;
+    }
 }
