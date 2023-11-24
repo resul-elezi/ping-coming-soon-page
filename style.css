@@ -24,12 +24,14 @@ html {
 body {
     margin: 0 auto;
     padding: 0;
+    width: 100%;
     min-height: 100vh;
     min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.25rem;
 }
 header {
     margin-block: 5.2rem 2.2rem;
@@ -188,7 +190,6 @@ footer {
 
     body {
         max-width: 90rem;
-        width: 100%;
     }
     header {
         margin-block: 5.3125rem 2.75rem; 
@@ -200,22 +201,32 @@ footer {
     h1 {
         font-size: 3rem;
     }
-    /* #form {
+    .subscribe {
+        font-size: 1.25rem;
+    }
+    #form {
+        width: 60%;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: .85rem;
+        gap: .5rem;
     }
     #email {
-        width: 65%;
-        margin: 0;
+        width: 62%;
+        padding-block: 1.175rem;
+        font-size: 1.125rem;
+        border-radius: 2rem;
     }
     button {
-        width: 25%;
+        width: 35%;
         margin: 0;
+        padding-block: 1.2312rem;
+        font-size: 1.125rem;
+        border-radius: 2rem;
         box-shadow: none;
-    } */
+    }
     .msg {
         order: 2;
     }
