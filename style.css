@@ -22,8 +22,10 @@ html {
     font-family: 'Libre Franklin', sans-serif;
 }
 body {
-    /* height: 100vh;
-    height: 100svh; */
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,9 +185,6 @@ footer {
 }
 
 @media screen and (min-width: 42.5em) {
-    html {
-        /* height: 100vh; */
-    }
 
     body {
         max-width: 90rem;
