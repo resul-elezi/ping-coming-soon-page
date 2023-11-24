@@ -87,7 +87,13 @@ button {
     color: white;
     margin-top: .3rem;
     cursor: pointer;
-    box-shadow: 0 0 5px rgba(79, 125, 242, .5);
+    box-shadow: 2px 3px 10px rgba(79, 125, 242, .5);
+    transition: background .3s linear,
+    box-shadow .3s linear;
+}
+button:hover {
+    background: rgba(79, 125, 242, .8);
+    box-shadow: 2px 3px 10px rgba(79, 125, 242, .3);
 }
 .illustration {
     width: 100%;
@@ -110,6 +116,12 @@ button {
     border-radius: 50%;
     padding: .35rem .537rem;
     cursor: pointer;
+    transition: color .3s linear, 
+    background .3s linear;
+}
+.fa-facebook-f:hover {
+    color: white;
+    background: var(--blue);
 }
 .fa-twitter {
     color: var(--blue);
@@ -117,6 +129,12 @@ button {
     border-radius: 50%;
     padding: .35rem;
     cursor: pointer;
+    transition: color .3s linear, 
+    background .3s linear;
+}
+.fa-twitter:hover {
+    color: white;
+    background: var(--blue);
 }
 .fa-instagram {
     color: var(--blue);
@@ -124,6 +142,12 @@ button {
     border-radius: 50%;
     padding: .35rem .412rem;
     cursor: pointer;
+    transition: color .3s linear, 
+    background .3s linear;
+}
+.fa-instagram:hover {
+    color: white;
+    background: var(--blue);
 }
 footer {
     text-align: center;
@@ -143,7 +167,9 @@ footer {
     color: var(--gray);
 }
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px;
+    text-align: center;
+    color: var(--gray); 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
