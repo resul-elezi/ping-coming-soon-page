@@ -44,14 +44,16 @@ main {
     text-align: center;
     width: 88%;
 }
-.main-header {
-    font-size: 1.25rem;
+h1 {
+    font-size: 1.3125rem;
+    font-weight: 500;
     color: var(--gray);
-    letter-spacing: .5px;
+    letter-spacing: .3px;
     margin-bottom: 1.15rem;
 }
 strong {
     color: black;
+    font-weight: 700;
 }
 .subscribe {
     font-size: .75rem;
