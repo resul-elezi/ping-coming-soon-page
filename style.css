@@ -99,8 +99,8 @@ button {
     box-shadow .3s linear;
 }
 button:hover {
-    background: rgba(79, 125, 242, .9);
-    box-shadow: 2px 3px 10px rgba(79, 125, 242, .4);
+    background: rgba(79, 125, 242, .8);
+    box-shadow: 2px 3px 10px rgba(79, 125, 242, .3);
 }
 .illustration {
     width: 100%;
