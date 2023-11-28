@@ -186,18 +186,17 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 42.5em) {
-
+@media screen and (min-width: 56.25em) {
     body {
         max-width: 90rem;
     }
+
     header {
         margin-block: 5.3125rem 2.75rem; 
     }
     .logo {
         width: 5.45rem;
     }
-
     
     h1 {
         font-size: 3rem;
@@ -209,7 +208,6 @@ footer {
     #form {
         width: 60%;
         margin: 0 auto;
-        padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -217,16 +215,16 @@ footer {
         gap: .5rem;
     }
     #email {
-        width: 66%;
+        max-width: 65%;
         margin: 0;
         padding-block: 1rem;
         font-size: 1.125rem;
         border-radius: 2rem;
     }
     button {
-        width: 31%;
+        max-width: 31%;
         margin: 0;
-        padding-block: 1.056rem;
+        padding: 1.056rem 0;
         font-size: 1.125rem;
         border-radius: 2rem;
     }
@@ -245,5 +243,8 @@ footer {
     .illustration img {
         width: 100%;
         height: auto;
+    }
+    .error .illustration {
+        margin-top: 2.85rem;
     }
 }
