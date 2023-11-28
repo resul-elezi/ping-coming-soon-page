@@ -203,10 +203,12 @@ footer {
     }
     .subscribe {
         font-size: 1.25rem;
+        padding-bottom: 2.28rem;
     }
     #form {
         width: 60%;
         margin: 0 auto;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -214,26 +216,32 @@ footer {
         gap: .5rem;
     }
     #email {
-        width: 62%;
-        padding-block: 1.175rem;
+        width: 66%;
+        margin: 0;
+        padding-block: 1rem;
         font-size: 1.125rem;
         border-radius: 2rem;
     }
     button {
-        width: 35%;
+        width: 31%;
         margin: 0;
-        padding-block: 1.2312rem;
+        padding-block: 1.056rem;
         font-size: 1.125rem;
         border-radius: 2rem;
         box-shadow: none;
     }
     .msg {
-        order: 2;
+        order: 3;
+        font-size: .75rem;
+        align-self: start;
     }
     .illustration {
-        width: 85%;
+        width: 53%;
+        margin-top: 5.5rem;
+        margin-bottom: 1rem;
     }
     .illustration img {
         width: 100%;
+        height: auto;
     }
 }
